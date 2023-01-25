@@ -19,14 +19,15 @@ structure, domain, and contents of it thoroughly. <br>
 
 # Dataset: Basic Info <br>
 
-##What is it about?<br>
+## What is it about?<br>
 
 This data provides values of various features that “might” be predictive of house prices.
 In other words, if a ML model is developed using this dataset, potentially such a model
 can be used to determine the “listing price” of a property that the owners are planning to
 sell.<br>
 
-## What information it has?
+## What information it has? <br>
+
 The dataset comes with the following files. You can view them at:
 github.com/ArinB/MSBA-CA-Data/CA01
 - Data Description text file
