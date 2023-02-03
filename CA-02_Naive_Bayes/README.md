@@ -41,7 +41,7 @@ emails)<br>OR<br>spmsg[Number].txt : example spmsga162.txt (these files are of s
 emails).</i><br>
 <br>
 The very first step in text data mining task is to clean and prepare the data for a model.<br><br>
-In cleaning we remove the non required words, expressions and symbols from text.
+In cleaning we remove the non required words, expressions and symbols from text. <br>
 Consider a text: <i> “Hi, this is Alice. Hope you are doing well and enjoying your vacation.” </i> <br><br>
 Here the words like is, this, are, and etc. don’t really contribute to the analysis.  <br><br>
 Such words are also called stop words. Hence in this exercise, we consider only most
