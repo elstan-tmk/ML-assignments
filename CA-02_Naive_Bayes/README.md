@@ -21,7 +21,7 @@ the logic of the code is easily understandable. <br><br>
 There are two folders test-mails and train-mails. The train-mails will be used to train the model.
 <br><br>
 
-Subject: re : 2 . 882 s - > np np> deat : sun , 15 dec 91 2 : 25 : 2 est > : michael <
+> >Subject: re : 2 . 882 s - > np np> deat : sun , 15 dec 91 2 : 25 : 2 est > : michael <
 mmorse @ vm1 . yorku . ca > > subject : re : 2 . 864 query
 > > wlodek zadrozny ask " anything interest " > construction " s > np np " . . . second ,
 > much relate : consider construction form > discuss list late reduplication ? > logical
