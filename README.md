@@ -10,5 +10,5 @@ It’s often the first step in data analysis, implemented before any formal stat
 This exercise will train the model with set of emails labelled as either from Spam or Not Spam. \
 There are 702 emails equally divided into spam and non spam category. \
 Next, the model will be tested on 260 emails. The category of this emails is going to be predict \
-by the moedl and compare the accuracy with the correct classification. 
+by the model and compare the accuracy with the correct classification. 
 

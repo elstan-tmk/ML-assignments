@@ -1,6 +1,4 @@
-# ML-assignments
-
-CA02: Spam eMail Detection using Naive Bayes Classification Algorithm<br>
+# CA02: Spam eMail Detection using Naive Bayes Classification Algorithm<br>
 
 # <b>Assignment Description</b>
 
