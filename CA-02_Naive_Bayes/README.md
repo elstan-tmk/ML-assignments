@@ -36,8 +36,8 @@ tautology , . ( reduplication , either . )
 First line is subject and the content starts from the third line.<br>
 <br>
 If you navigate to any of the train-mails or test-mails, you shall see file names in two patterns:<br>
-<i>number-numbermsg[number].txt : example 3-1msg1.txt (this are non spam
-emails)ORspmsg[Number].txt : example spmsga162.txt (these files are of spam
+> > <i>number-numbermsg[number].txt : example 3-1msg1.txt (this are non spam
+emails)<br>OR<br>spmsg[Number].txt : example spmsga162.txt (these files are of spam
 emails).</i><br>
 <br>
 The very first step in text data mining task is to clean and prepare the data for a model.<br><br>
