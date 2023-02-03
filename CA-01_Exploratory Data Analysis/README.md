@@ -1,6 +1,4 @@
-# ML-assignments
-
-CA01: Exploratory Data Analysis - House Price Analysis <br>
+# CA01: Exploratory Data Analysis - House Price Analysis <br>
 
 The dataset is from <b> github.com/ArinB/MSBA-CA-Data/CA01</b>
 
