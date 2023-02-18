@@ -85,5 +85,37 @@ Judge the BEST hyper-parameter values with respect to "Accuracy".<br>
 For each run, your will “fill up” a table with all performance parameters as follows. <br>
 So, there will be 4 tables like this for 4 runs, based on the number of rows of the hyper-parameters.<br>
 For the Split Criteria, obviously you will have two rows only.<br>
+<br>
+To determine the BEST hyper-parameter value, create line-graphs with the hyper-parameter
+as x-axis and accuracy as y-axis. A sample is provided below for a graph of Minimum
+Sample Leaf Vs. Accuracy. You don’t need graph Split Criteria Vs. Accuracy. So you will
+have 3 graphs altogether.<br>
+<br>
+You can use the model training and testing in a loop for each of the hyper-parameters as
+the code sample below. You can modify the code to capture each of the performance
+parameters and display them in the table format inside your notebook like the above
+figure. <br>
 
+## 6. Visualize Your Best Decision Tree using GraphViz
+Get the detail of how to do this from the following link:<br>
+https://medium.com/@rnbrown/creating-and-visualizing-decision-trees-with-python-f8e8fa394176
+<br><br>
+Once you have the best hyper-parameters from 4 runs, you will know the hyper-parameter
+combination of your BEST-performing Tree with respect to “accuracy”. Use these set of
+hyper-parameters to build the BEST Tree, record it’s performance parameter (all of them)
+and then “visualize” this best tree.
+
+## 7. Prediction using your “trained” Decision Tree Model
+Based on the Performance Tuning effort in the previous section, pick your BEST
+PERFORMING TREE. Now make prediction of a “new” individual’s Income Category ( <=50K,
+or >50K ) with the following information. Do this in your Notebook.<br>
+• Hours Worked per Week = 48
+• Occupation Category = Mid - Low
+• Marriage Status & Relationships = High
+• Capital Gain = Yes
+• Race-Sex Group = Mid
+• Number of Years of Education = 12
+• Education Category = High
+• Work Class = Income
+• Age = 58
 
