@@ -23,6 +23,8 @@ separate dataframes in the code based on this column value.
 * Q.6 Write your observations from the visualization of the best tree
 * Q.7 Will this Tree “overfit”? (Hint: Is this tree “fully grown”)
 * Q.8 What is the probability that your prediction for this person is correct?
+![image](https://user-images.githubusercontent.com/75411111/219848977-8278b91b-8c19-488c-9287-95c50b89cba0.png)
+
 
 ## 2. Data Quality Analysis (DQA)
 * Perform a Data Quality Analysis to find missing values, outliers, NaNs etc.
