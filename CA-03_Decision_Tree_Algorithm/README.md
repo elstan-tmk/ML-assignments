@@ -108,7 +108,7 @@ and then “visualize” this best tree.
 ## 7. Prediction using your “trained” Decision Tree Model
 Based on the Performance Tuning effort in the previous section, pick your BEST
 PERFORMING TREE. Now make prediction of a “new” individual’s Income Category ( <=50K,
-or >50K ) with the following information. Do this in your Notebook.<br>
+or >50K ) with the following information. <br>
 * Hours Worked per Week = 48
 * Occupation Category = Mid - Low
 * Marriage Status & Relationships = High
