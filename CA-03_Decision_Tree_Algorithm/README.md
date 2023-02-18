@@ -109,13 +109,13 @@ and then “visualize” this best tree.
 Based on the Performance Tuning effort in the previous section, pick your BEST
 PERFORMING TREE. Now make prediction of a “new” individual’s Income Category ( <=50K,
 or >50K ) with the following information. Do this in your Notebook.<br>
-• Hours Worked per Week = 48
-• Occupation Category = Mid - Low
-• Marriage Status & Relationships = High
-• Capital Gain = Yes
-• Race-Sex Group = Mid
-• Number of Years of Education = 12
-• Education Category = High
-• Work Class = Income
-• Age = 58
+* Hours Worked per Week = 48
+* Occupation Category = Mid - Low
+* Marriage Status & Relationships = High
+* Capital Gain = Yes
+* Race-Sex Group = Mid
+* Number of Years of Education = 12
+* Education Category = High
+* Work Class = Income
+* Age = 58
 
