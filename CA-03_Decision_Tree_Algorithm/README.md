@@ -31,3 +31,22 @@ separate dataframes in the code based on this column value.
 * Perform necessary data cleansing and transformation based on your observations from the data quality analysis
 
 ## 3. Build Decision Tree Classifier Models
+<b>Definition:</b> Given a data of attributes together with its classes, a decision tree produces a
+sequence of rules that can be used to classify the data. 
+<br><br>
+<b>Advantages:</b> Decision Tree is simple to understand and visualise, requires little data
+preparation, and can handle both numerical and categorical data.
+<br><br>
+<b>Disadvantages:</b> Decision tree can create complex trees that do not generalize well, and
+decision trees can be unstable because small variations in the data might result in a
+completely different tree being generated.
+<br><br>
+Use “DecisionTreeClassifier” algorithm from scikit learn. Find details of sklearn tree
+algorithm below. Scitkit Learn implements an optimized version of CART algorithm and can
+be used for binary class as well as multi-class classifications. It can be used for
+classification, as well as regression. Study the following link thoroughly, including Section
+1.10.5 (Tips on Practical Use).<br>
+https://scikit-learn.org/stable/modules/tree.html#tree-algorithms-id3-c4-5-c5-0-and-cart 
+<br>
+<br>
+## 4. Evaluate Decision Tree Performance
