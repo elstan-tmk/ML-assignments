@@ -5,7 +5,7 @@ with seven demographic variables. The following is a description of our dataset:
 * Number of target classes: 2 ('>50K' and '<=50K') [ Labels: 1, 0 ] 
 * Number of attributes (Columns): 7 
 * Number of instances (Rows): 48,842 
-* ![image](https://user-images.githubusercontent.com/75411111/219848977-8278b91b-8c19-488c-9287-95c50b89cba0.png)
+![image](https://user-images.githubusercontent.com/75411111/219848977-8278b91b-8c19-488c-9287-95c50b89cba0.png)
 
 ## 1. Data Sources:
 "https://github.com/ArinB/MSBA-CA-03-Decision-Trees/blob/master/census_data.csv?raw=true"
