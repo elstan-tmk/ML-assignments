@@ -50,3 +50,40 @@ https://scikit-learn.org/stable/modules/tree.html#tree-algorithms-id3-c4-5-c5-0-
 <br>
 <br>
 ## 4. Evaluate Decision Tree Performance
+Calculate and display the following. Do all of these inside your Notebook.
+* Confusion Matrix (TP, TN, FP, FN … etc.)
+* Accuracy, Precision, Recall, F1 Score
+
+
+## 5. Tune Decision Tree Performance
+
+Learn about all hyper-parameters and methods of Scikit Learn DecisionTreeClassifier
+algorithm at:<br>
+https://scikitlearn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier
+
+
+Try varying FOUR of the hyperparameters manually, as per the following table, and train /
+score your model for each set of these hyperparameters. Record your Tree’s performance
+with respect to each of these sets of hyperparameters in the Model Performance section of
+the following table.
+<br>
+Four Hyperparameters to vary:
+<br>
+* Split Criteria – ‘Entropy’ or ‘Gini Impurity’
+* Maximum Features – The number of features to consider when looking for the best
+split. If float, then max_features is a fraction
+and max(1, int(max_features * n_features_in_)) features are considered at each split.
+*  Minimum Sample Leaf – Minimum of samples in a leaf node to stop further splitting
+(becomes a leaf node)
+*  Maximum Depth – Maximum depth of the tree allowed
+<br>
+For Run 1, vary Run 1 columns only and keep other columns to "default". <br>
+For Run 2, use the BEST hyper-parameter value of Split Criteria from Run 1, <br>
+For Run 3, use the BEST hyper-parameter values of Split Criteria and Minimum Sample Leaf from Run 1&2, <br>
+For Run 4, use the Best values of Split Crteria, Minimum Sample Leaf, Maximum Feature from previous runs. <br><br>
+Judge the BEST hyper-parameter values with respect to "Accuracy".<br>
+For each run, your will “fill up” a table with all performance parameters as follows. <br>
+So, there will be 4 tables like this for 4 runs, based on the number of rows of the hyper-parameters.<br>
+For the Split Criteria, obviously you will have two rows only.<br>
+
+
