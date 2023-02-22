@@ -1,4 +1,4 @@
-# ML-assignments
+# Machine Learning
 
 ## CA01: Exploratory Data Analysis - House Price Analysis
 Exploratory Data Analysis is an approach analyzing data sets to summarize their main characteristics \
