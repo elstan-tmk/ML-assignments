@@ -45,4 +45,5 @@ Repeat the process of Section 3 above for AdaBoost, Gradient Boost, and XGB Clas
 For the best values of Accuracy and AUC for four models (Random Forest, AdaBoost, \
 Gradient Boost, XGB) in the previous steps, fill up the following table:
 
+![image](https://user-images.githubusercontent.com/75411111/221019532-70b558ab-3389-426c-bc97-aff4c564c8c0.png)
 
