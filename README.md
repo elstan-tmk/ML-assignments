@@ -17,3 +17,8 @@ The dataset is obtained from the Census Bureau and represents salaries of people
 seven demographic variables. The goal is to build a Decision Tree Classifier Model to understand \
 and visualise the dataset. 2 target classes will be aimmed in this model \
 the income class of ('>50K' and '<=50K') [ Labels: 1, 0 ] . 
+
+## CA04: Ensemble Models
+The dataset is obtained from the Census Bureau and represents salaries of people along with \
+seven demographic variables. The goal is to build Ensemble Models to find the best number of \
+estimators, one of the key hyper-parameters, by creating line graphs.
