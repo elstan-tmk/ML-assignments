@@ -1,24 +1,38 @@
-# Machine Learning
+# CA05 - KNN based Movie Recommender Engine
 
-## CA01: Exploratory Data Analysis - House Price Analysis
-Exploratory Data Analysis is an approach analyzing data sets to summarize their main characteristics \
-such as mean, standard deviation, and count, so on, often with visua methods. \
-It’s where the researcher takes a bird’s eye view of the data and tries to make some sense of it. \
-It’s often the first step in data analysis, implemented before any formal statistical techniques are applied.
+## 1. The Application
 
-## CA02: Spam eMail Detection using Naive Bayes Classification Algorithm
-This exercise will train the model with set of emails labelled as either from Spam or Not Spam. \
-There are 702 emails equally divided into spam and non spam category. \
-Next, the model will be tested on 260 emails. The category of this emails is going to be predict \
-by the model and compare the accuracy with the correct classification. 
+At Scale, this would look like recommending products on Amazon, articles on Medium, movies on Netflix, or videos on Youtube. <br>
+Although, they all use more efficient means of making recommendations due to the enormous volume of data they process. <br>
+However, we would replicate one of these recommender systems on a smaller scale using what we have learned. <br>
 
-## CA03: Decision Tree Algorithm
-The dataset is obtained from the Census Bureau and represents salaries of people along with \
-seven demographic variables. The goal is to build a Decision Tree Classifier Model to understand \
-and visualise the dataset. 2 target classes will be aimmed in this model \
-the income class of ('>50K' and '<=50K') [ Labels: 1, 0 ] . 
+## 2. Data Source and Contents
+Since we are not working at they big companies, we could not grab the data from the data warehouse, we have to get our data through some other means. <br>
 
-## CA04: Ensemble Models
-The dataset is obtained from the Census Bureau and represents salaries of people along with \
-seven demographic variables. The goal is to build Ensemble Models to find the best number of \
-estimators, one of the key hyper-parameters, by creating line graphs.
+We are going to use:<br>
+
+<u>Data File Name: </u> movies_recommendation_data.csv <br>
+<u>File Location: </u> https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv <br>
+
+The data contains thirty movies, including data for each movie across seven genres and their IMDB ratings. <br>
+The labels column values are all zeroes because we are not using this data set for classification or regression. <br>
+The implementation assumes that all columns contain numerical data. <br>
+<br>
+Additionally, there are relationships among the movies that will not accounted for (e.g. actors, directors, and themes),
+when using the KNN algorithm simply because the data that captures those relationships are missing from the data set.<br>
+Consequently, when running the kNN algorithm on the data, similarity will be based solely on the included genres and the IMDB ratings of the movies.
+
+## 3. Building the own Recommender System
+
+The movie recommendation webite will be built by using the Recommendation Engine at the back-end.<br>
+Imagine a user is navigating the recommendation website, and this user encounters a movie named "The Post".<br>
+The user is not sure if he/she wants to watch it, but its genres intrigue the user;<br>
+The user is curious about other similar movies. The user scrolls down to the "More Like This" section to see what recommendations your recommendation website will make, and the back-end algorithmic gears begin to turn.<br><br>
+
+Your website sends a request to its back-end for the 5 movies that are most similar to "The Post".<br>
+The back-end has a recommendation data set exactly like ours.<br>
+It begins by creating the row representation (better known as a <b>feature vector</b> for <i>The Post</i>,<br>
+then it runs a program similar to the one to search for the 5 movies that are most similar the <i>The Post</i>,<br>
+and finally sends the results back to the user at the website.
+
+![image.png](attachment:55bff7ce-61f7-4c79-af9f-53706544d84b.png)
