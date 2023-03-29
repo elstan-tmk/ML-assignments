@@ -35,4 +35,5 @@ It begins by creating the row representation (better known as a <b>feature vecto
 then it runs a program similar to the one to search for the 5 movies that are most similar the <i>The Post</i>,<br>
 and finally sends the results back to the user at the website.
 
-![image.png](attachment:55bff7ce-61f7-4c79-af9f-53706544d84b.png)
+![image](https://user-images.githubusercontent.com/75411111/228690370-4abbe5f6-a6d4-447f-a6a4-14437cfac481.png)
+
