@@ -22,3 +22,10 @@ the income class of ('>50K' and '<=50K') [ Labels: 1, 0 ] .
 The dataset is obtained from the Census Bureau and represents salaries of people along with \
 seven demographic variables. The goal is to build Ensemble Models to find the best number of \
 estimators, one of the key hyper-parameters, by creating line graphs.
+
+## CA05: kNN Based Movie Recommender Engine
+The movie recommendation website will be built by using the Recommendation Engine at the back-end. \
+This recommender sends a request to its bac-end for the 5 movies that are most similar to the input. \
+It begins by creating the row representation (better known as a <b>feature vector</b> for <i>The Post</i>, \
+then it runs a program similar to the one to search for the 5 movies that are most similar the <i>The Post</i>, \
+and finally sends the results back to the user at the website.
